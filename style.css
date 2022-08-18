@@ -1,0 +1,985 @@
+body {
+    max-width: 428px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 0px 5px #CCCCCC;
+
+}
+
+.nftlanding__name_style {
+    font-family: 'Varela Round', sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.005em;
+    margin-left: 2px;
+
+}
+
+.NAV_links {
+    display: none;
+}
+
+
+.LOGO_NFT {
+    height: 36px;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.burgermenu {
+    width: 25px;
+    height: 4px;
+    background-color: #999999;
+    margin: 6px 32px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 428px;
+    width: 100%;
+    margin: 34px auto;
+}
+
+.logo_brand {
+    display: flex;
+    align-items: center;
+
+}
+
+.link_sign_up {
+    text-decoration: none;
+    color: #111111;
+    border: 5px solid red;
+    border-radius: 40px;
+    padding: 15px 15%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 34px;
+
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.right {
+
+    width: 20px;
+    margin-left: 25%;
+}
+
+.robot {
+    width: 430px;
+    height: 330px;
+    /* position: absolute; */
+    display: block;
+    float: left;
+    margin-left: -200px;
+}
+
+.Colorized {
+    align-items: center;
+    max-width: 428px;
+    width: 100%;
+    margin: 34px auto;
+    background-image: linear-gradient(to right, #FF3998, #FF8139);
+    padding-top: 121px;
+    padding-bottom: 32px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.title_1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 34px;
+}
+
+.Pink {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FF3998;
+    margin-top: 50px;
+    margin-left: 34px;
+
+}
+
+.Slogan {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    color: #111111;
+    margin-top: 24px;
+    margin-left: 34px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    margin-left: 34px;
+}
+
+main {
+    max-width: 428px;
+    margin: 0px auto;
+
+}
+
+.news {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 34px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    color: #555555;
+
+}
+
+.Companies {
+    margin-left: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #999999;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, 120px);
+    grid-template-rows: 1fr 1fr;
+    gap: 25px 100px;
+    margin-bottom: 61px;
+}
+
+.Boom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Blimp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.grco {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Droplet {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.OpenDoor {
+    display: none
+}
+
+img,
+.Boom {
+    width: 55%;
+    margin-right: 10px;
+}
+
+
+img,
+.Blimp {
+    width: 55%;
+    margin-right: 10px;
+
+}
+
+img,
+.grco {
+    width: 55%;
+    margin-right: 10px;
+
+}
+
+
+img,
+.Droplet {
+    width: 55%;
+    margin-right: 10px;
+
+}
+
+.gloop_style {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FF8139;
+}
+
+.item_info-bold {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #111111;
+    margin: 7px 0px 7px 0px;
+
+}
+
+
+.item_info-gray {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+}
+
+.topbid_style {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #777777;
+}
+
+
+.left_info {
+    height: 50px;
+    width: 109px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right_info {
+    height: 50px;
+    width: 89px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.eth {
+    height: auto;
+    width: 13px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.center_info {
+    height: auto;
+    width: 13px;
+    margin-left: 24px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.good_info {
+    max-width: 290px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.purple_photo {
+    width: 290px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.purple_card {
+    width: 290px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.all_cards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-bottom: 182px;
+    overflow-x: auto;
+    height: 450px;
+
+
+
+
+}
+
+.logo_brand_single {
+    max-width: 428PX;
+    width: 480;
+    display: flex;
+    flex-direction: column;
+    background: #FF8139;
+}
+
+.upsell-footer {
+    height: 360px;
+    width: auto;
+    margin-left: -100px;
+}
+
+.LOGO_NFT_botom {
+    width: 40px;
+    margin: 30px 12px 20px 34px;
+    align-content: center;
+}
+
+.bottom_logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    max-width: 428px;
+    width: 100%;
+    margin: 34px auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    margin-left: 32px;
+}
+
+.social_pic {
+    width: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    filter: invert(45%) sepia(4%) saturate(476%) hue-rotate(45deg) brightness(118%) contrast(119%);
+
+
+}
+
+.social {
+    max-width: 428px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-left: 25px;
+}
+
+.Table-heading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+
+.table_txt {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 7px;
+
+}
+
+.footer_table {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+footer {
+    margin-left: 34px;
+    margin-top: 20px;
+
+    color: #555555;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, 120px);
+    grid-template-rows: 1fr 1fr;
+    gap: 25px 70px;
+    margin-bottom: 61px;
+}
+
+.copyright {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #999999;
+    height: 50px;
+    margin-left: 32px;
+    margin-bottom: 50;
+
+}
+
+.copyright_desktop {
+    display: none;
+}
+
+.bottom_of_the_bottoms {
+    width: auto;
+    height: 105px;
+}
+
+/*  MOBILE FIRST */
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    body {
+        max-width: 1440px;
+        width: 100%;
+        box-shadow: 0px 10px 0px 10px #CCCCCC;
+        border-radius: 20px;
+    }
+
+    .NAV_links {
+        text-decoration: none;
+        max-width: 1440px;
+        width: 30%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #555555;
+        display: flex;
+    }
+
+
+    .links {
+        text-decoration: none;
+        max-width: 1240px;
+        width: 30%;
+        display: flex;
+        align-items: baseline;
+        margin-top: 81px;
+
+    }
+
+    .NAV_links:last-child {
+        color: #FF3998;
+    }
+
+    .nav {
+        max-width: 1440px;
+        display: flex;
+        align-items: baseline;
+
+    }
+
+
+
+
+    .nftlanding__name_style {
+        font-family: 'Varela Round', sans-serif;
+        font-style: normal;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 0.005em;
+        margin-left: 2px;
+
+    }
+
+    .LOGO_NFT {
+        height: 36px;
+        align-items: center;
+        margin-left: 32px;
+    }
+
+    .burgermenu {
+        display: NONE;
+
+    }
+
+
+
+    .logo_brand {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .link_sign_up {
+        text-decoration: none;
+        color: #111111;
+        border: 5px solid red;
+        border-radius: 40px;
+        padding: 15px 5%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        margin-left: 34px;
+
+    }
+
+    .section {
+        display: flex;
+        align-items: center;
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .left {
+        width: 700px;
+        margin-left: 1%;
+    }
+
+
+
+
+
+
+    .right {
+        width: 20px;
+        margin-left: 25%;
+    }
+
+    .robot {
+        width: 700px;
+        height: auto;
+        /* position: absolute; */
+        margin-left: -350px;
+        margin-top: 100px;
+    }
+
+    .Colorized {
+        align-items: center;
+        max-width: 1440px;
+        width: 95%;
+        background-image: linear-gradient(to left right top, #FF3998, #6ad810);
+
+        padding-top: 121px;
+        padding-bottom: 70px;
+        margin-top: 70px;
+
+        border-radius: 20px;
+    }
+
+    .title_1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        margin-left: 34px;
+    }
+
+    .Pink {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FF3998;
+        margin-top: 5px;
+        margin-left: 34px;
+
+    }
+
+    .Slogan_1 {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        color: #111111;
+        margin-top: 24px;
+        margin-left: 34px;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        margin-top: 24px;
+        margin-bottom: 50px;
+        margin-left: 34px;
+    }
+
+    main {
+        max-width: 1440px;
+        margin: 0px auto;
+
+    }
+
+    .news {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 34px;
+        margin-top: 20px;
+        margin-bottom: 2px;
+        color: #111111;
+        background: #6ad810;
+
+    }
+
+    .Companies {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        color: #999999;
+
+        display: grid;
+        margin: 150px auto;
+
+        grid-template-columns: repeat(auto-fill, 120px);
+        gap: 25px 150px;
+        margin: auto;
+        margin-left: 100px;
+    }
+
+
+    .Boom {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .Blimp {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .grco {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .Droplet {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .OpenDoor {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    img,
+    .Boom {
+        width: 55%;
+        margin-right: 10px;
+    }
+
+
+    img,
+    .Blimp {
+        width: 55%;
+        margin-right: 10px;
+
+    }
+
+    img,
+    .grco {
+        width: 55%;
+        margin-right: 10px;
+
+    }
+
+
+    img,
+    .Droplet {
+        width: 55%;
+        margin-right: 10px;
+
+    }
+
+    .gloop_style {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #FF8139;
+    }
+
+    .item_info-bold {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        color: #111111;
+        margin: 7px 0px 7px 0px;
+
+    }
+
+
+    .item_info-gray {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #777777;
+    }
+
+    .topbid_style {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #777777;
+    }
+
+
+    .left_info {
+        height: 50px;
+        width: 109px;
+        margin-left: 24px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .right_info {
+        height: 50px;
+        width: 89px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+
+    }
+
+
+    .eth {
+        height: auto;
+        width: 13px;
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+
+
+
+
+    .center_info {
+        height: auto;
+        width: 13px;
+        margin-left: 24px;
+        margin-right: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .good_info {
+        max-width: 290px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+
+    }
+
+    .purple_photo {
+        width: 290px;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .purple_card {
+        width: 290px;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all_cards {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+        margin-bottom: 10px;
+    }
+
+    .logo_brand_single {
+        max-width: 1440px;
+        width: 480;
+        display: flex;
+        flex-direction: column;
+        background: #FF8139;
+    }
+
+    .upsell-footer {
+        height: 350px;
+        width: auto;
+        margin-right: 300px;
+        margin-top: 50px;
+    }
+
+    .LOGO_NFT_botom {
+        width: 40px;
+        margin: 30px 0px 0px 34px;
+        align-content: center;
+    }
+
+    .bottom_logo {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        max-width: 1440px;
+        width: 100%;
+        margin: 0px auto;
+
+    }
+
+    h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #555555;
+        margin-left: 32px;
+    }
+
+    .social_pic {
+        width: 18px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+        filter: invert(45%) sepia(4%) saturate(476%) hue-rotate(45deg) brightness(118%) contrast(119%);
+
+
+    }
+
+    .social {
+        max-width: 1440px;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        margin-left: 25px;
+    }
+
+    .Table-heading {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 28px;
+    }
+
+    .table_txt {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 7px;
+
+    }
+
+    .footer_table {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    footer {
+        margin-left: 34px;
+        margin-top: 20px;
+
+        color: #555555;
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 25px 70px;
+        margin-bottom: 61px;
+    }
+
+    .copyright {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #999999;
+
+    }
+
+
+
+    .footer_logo_social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Desktop_bottom {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .copyright_desktop {
+        display: contents;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #999999;
+    }
+
+    .bottom_of_the_bottoms {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
